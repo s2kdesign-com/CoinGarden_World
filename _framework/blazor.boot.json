@@ -4,7 +4,7 @@
     "appsettings.json"
   ],
   "debugBuild": false,
-  "entryAssembly": "S2kDesignTemplate.LandingPage",
+  "entryAssembly": "CoinGardenWorld.LandingPage",
   "icuDataMode": 0,
   "linkerEnabled": true,
   "resources": {
@@ -31,8 +31,8 @@
       "Microsoft.JSInterop.dll": "sha256-cFEEatAEw40zF4uI+BQyjkAQ1bNPv+QgHQwl1hG\/f78=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-eF6xbzCQBK4yEs2CC3wnJR1I1ZWXwlJp7GJ4R1UMM14=",
       "System.IO.Pipelines.dll": "sha256-qZYTUS+ga7CydtH54fYPbehFCvx3B49I74G8dxreTog=",
-      "S2kDesignTemplate.Shared.dll": "sha256-514at+EvmWbOvd80b50f8wcU6z5IjqJmYvIsm07ATIM=",
-      "S2kDesignTemplate.LandingPage.dll": "sha256-jlq4103+aUSdfhjNtHtmZu7HMxIEOsLGGU9CfQCguSU=",
+      "CoinGardenWorld.Shared.dll": "sha256-aipnaDKtLpg6uiJPnyz3XMwb8PEuLd6IRqoeS8vfXc4=",
+      "CoinGardenWorld.LandingPage.dll": "sha256-ufivy072joNG38o2u4MlYYW63+Of\/7PffPiWBoW9zWk=",
       "System.Collections.Concurrent.dll": "sha256-xjYx3wRhcR2VVT5VoqDerTZvaFoeXGmPGs8NemcW11c=",
       "System.Collections.Immutable.dll": "sha256-GxB76lw\/6VJziJwYsx6V1hFFA3TiwceGCnyOCIG\/8sI=",
       "System.Collections.NonGeneric.dll": "sha256-GDr\/lXfA48bVzfR5hb4h6xSbg79mAi+JJFzIhh5DP5E=",
