@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace S2kDesignTemplate.ServerAPI
+namespace CoinGardenWorld.ServerAPI
 {
     public class Program
     {

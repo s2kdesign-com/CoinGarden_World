@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace S2kDesignTemplate.WebStatus
+namespace CoinGardenWorld.WebStatus
 {
     public class Program
     {

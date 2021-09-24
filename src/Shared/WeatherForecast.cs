@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace S2kDesignTemplate.Shared
+namespace CoinGardenWorld.Shared
 {
     public class WeatherForecast
     {

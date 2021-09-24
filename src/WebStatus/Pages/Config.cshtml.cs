@@ -3,7 +3,7 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Configuration;
 
-namespace S2kDesignTemplate.WebStatus.Pages
+namespace CoinGardenWorld.WebStatus.Pages
 {
     public class ConfigModel : PageModel
     {

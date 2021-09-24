@@ -7,18 +7,18 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["Server/S2kDesignTemplate.Server.csproj", "Server/"]
-COPY ["LandingPage/S2kDesignTemplate.LandingPage.csproj", "LandingPage/"]
-COPY ["Shared/S2kDesignTemplate.Shared.csproj", "Shared/"]
-RUN dotnet restore "Server/S2kDesignTemplate.Server.csproj"
+COPY ["Server/CoinGardenWorld.Server.csproj", "Server/"]
+COPY ["LandingPage/CoinGardenWorld.LandingPage.csproj", "LandingPage/"]
+COPY ["Shared/CoinGardenWorld.Shared.csproj", "Shared/"]
+RUN dotnet restore "Server/CoinGardenWorld.Server.csproj"
 COPY . .
 WORKDIR "/src/Server"
-RUN dotnet build "S2kDesignTemplate.Server.csproj" -c Release -o /app/build
+RUN dotnet build "CoinGardenWorld.Server.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "S2kDesignTemplate.Server.csproj" -c Release -o /app/publish
+RUN dotnet publish "CoinGardenWorld.Server.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "S2kDesignTemplate.Server.dll"]
+ENTRYPOINT ["dotnet", "CoinGardenWorld.Server.dll"]

@@ -1,4 +1,4 @@
 # Table of contents
 
-* [S2KDesign](README.md)
+* [CoinGarden-World](README.md)
 

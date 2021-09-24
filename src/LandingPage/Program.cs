@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace S2kDesignTemplate.LandingPage
+namespace CoinGardenWorld.LandingPage
 {
     public class Program
     {

@@ -10,7 +10,7 @@ using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Identity.Web;
 
-namespace S2kDesignTemplate.Server
+namespace CoinGardenWorld.Server
 {
     public class Startup
     {

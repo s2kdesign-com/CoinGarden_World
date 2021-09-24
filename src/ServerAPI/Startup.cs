@@ -13,7 +13,7 @@ using Microsoft.Identity.Web;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerUI;
 
-namespace S2kDesignTemplate.ServerAPI
+namespace CoinGardenWorld.ServerAPI
 {
     public class Startup
     {

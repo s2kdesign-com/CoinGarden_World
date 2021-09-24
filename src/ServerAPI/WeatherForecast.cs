@@ -1,6 +1,6 @@
 using System;
 
-namespace S2kDesignTemplate.ServerAPI
+namespace CoinGardenWorld.ServerAPI
 {
     public class WeatherForecast
     {

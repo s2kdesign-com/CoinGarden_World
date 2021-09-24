@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using CoinGardenWorld.Shared;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Identity.Web.Resource;
-using S2kDesignTemplate.Shared;
 
-namespace S2kDesignTemplate.Server.Controllers
+namespace CoinGardenWorld.Server.Controllers
 {
     [Authorize]
     [ApiController]

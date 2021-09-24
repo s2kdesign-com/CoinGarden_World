@@ -7,16 +7,16 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["WebStatus/S2kDesignTemplate.WebStatus.csproj", "WebStatus/"]
-RUN dotnet restore "WebStatus/S2kDesignTemplate.WebStatus.csproj"
+COPY ["WebStatus/CoinGardenWorld.WebStatus.csproj", "WebStatus/"]
+RUN dotnet restore "WebStatus/CoinGardenWorld.WebStatus.csproj"
 COPY . .
 WORKDIR "/src/WebStatus"
-RUN dotnet build "S2kDesignTemplate.WebStatus.csproj" -c Release -o /app/build
+RUN dotnet build "CoinGardenWorld.WebStatus.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "S2kDesignTemplate.WebStatus.csproj" -c Release -o /app/publish
+RUN dotnet publish "CoinGardenWorld.WebStatus.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "S2kDesignTemplate.WebStatus.dll"]
+ENTRYPOINT ["dotnet", "CoinGardenWorld.WebStatus.dll"]

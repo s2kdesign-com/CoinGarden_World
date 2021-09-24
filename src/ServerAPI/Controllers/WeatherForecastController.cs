@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Identity.Web.Resource;
 
-namespace S2kDesignTemplate.ServerAPI.Controllers
+namespace CoinGardenWorld.ServerAPI.Controllers
 {
     [Authorize]
     [ApiController]

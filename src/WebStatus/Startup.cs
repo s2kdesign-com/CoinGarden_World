@@ -10,7 +10,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Identity.Web;
 using Microsoft.Identity.Web.UI;
 
-namespace S2kDesignTemplate.WebStatus
+namespace CoinGardenWorld.WebStatus
 {
     public class Startup
     {

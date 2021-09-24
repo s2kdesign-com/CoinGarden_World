@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace S2kDesignTemplate.WebStatus.Pages
+namespace CoinGardenWorld.WebStatus.Pages
 {
     public class IndexModel : PageModel
     {
