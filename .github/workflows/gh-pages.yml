@@ -21,11 +21,11 @@ jobs:
 
     # publishes Blazor project to the release-folder
     - name: Publish .NET Core Project
-      run: dotnet publish src/LandingPage/S2kDesignTemplate.LandingPage.csproj -c Release -o release --nologo
+      run: dotnet publish src/LandingPage/CoinGardenWorld.LandingPage -c Release -o release --nologo
     
     # changes the base-tag in index.html from '/' to 'CoinGarden-World' to match GitHub Pages repository subdirectory
-    - name: Change base-tag in index.html from / to WASM_Net5_Azure_B2C_Template
-      run: sed -i 's/<base href="\/" \/>/<base href="\/WASM_Net5_Azure_B2C_Template\/" \/>/g' release/wwwroot/index.html
+    - name: Change base-tag in index.html from / to CoinGarden_World
+      run: sed -i 's/<base href="\/" \/>/<base href="\/CoinGarden_World\/" \/>/g' release/wwwroot/index.html
 
     # copy index.html to 404.html to serve the same file when a file is not found
     - name: copy index.html to 404.html
